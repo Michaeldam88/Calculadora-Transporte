@@ -8,7 +8,7 @@ De momento ofrece un buscador donde poniendo los datos del envío, indica que ag
 Para su desarrollo he intentado utilizar todas las tecnologías adquiridas durante el curso:
 -	Como Framework escogí: React con Flux
 -	Para el código: Typescrip, 
--	Para el css: Sass  
+-	Para el css: Sass y BEM
 -	Para los tests: Jest
 -	Para que tenga persistencia: XXX
 -	Para el login: XXX
