@@ -5,21 +5,21 @@ export function Menu() {
         <nav className="navbar">
             <img
                 className="navbar__logo"
-                src="../../../public/assets/delivery.png"
+                src="../../../public/assets/contabilidad.png"
                 alt="logo"
             />
             <ul className="navbar__list">
-                <li>
+                <li className="navbar__element">
                     <Link to={'/home'}>{'Calculadora'}</Link>
                 </li>
 
-                <li>
+                <li className="navbar__element">
                     <Link to={'/agencias'}>{'Agencias'}</Link>
                 </li>
-                <li>
+                <li className="navbar__element">
                     <Link to={'/nueva-agencia'}>{'Nueva Agencia'}</Link>
                 </li>
-                <li>
+                <li className="navbar__element">
                     <Link to={'/nueva-tarifa'}>{'Nueva Tarifa'}</Link>
                 </li>
             </ul>
