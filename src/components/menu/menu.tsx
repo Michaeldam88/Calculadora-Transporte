@@ -2,8 +2,13 @@ import { Link } from 'react-router-dom';
 
 export function Menu() {
     return (
-        <nav className="menu">
-            <ul>
+        <nav className="navbar">
+            <img
+                className="navbar__logo"
+                src="../../../public/assets/delivery.png"
+                alt="logo"
+            />
+            <ul className="navbar__list">
                 <li>
                     <Link to={'/home'}>{'Calculadora'}</Link>
                 </li>
@@ -18,7 +23,7 @@ export function Menu() {
                     <Link to={'/nueva-tarifa'}>{'Nueva Tarifa'}</Link>
                 </li>
             </ul>
-            <button>
+            <button className="navbar__login">
                 <Link to={'/login'}>{'Login'}</Link>
             </button>
         </nav>

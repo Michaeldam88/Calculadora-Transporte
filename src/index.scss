@@ -1,1 +1,20 @@
-@import-normalize;
+@import '~sass-reset';
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    background-color: #24292f;
+    &__list {
+        display: flex;
+    }
+    &__logo {
+        background-color: #ffffff;
+    }
+    &__login {
+        margin-left: auto;
+    }
+}
