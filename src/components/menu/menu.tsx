@@ -5,7 +5,7 @@ export function Menu() {
         <nav className="navbar">
             <img
                 className="navbar__logo"
-                src="../../../public/assets/contabilidad.png"
+                src="assets/contabilidad.png"
                 alt="logo"
             />
             <ul className="navbar__list">

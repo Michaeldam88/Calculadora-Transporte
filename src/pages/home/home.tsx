@@ -1,3 +1,5 @@
+import { Search } from '../../components/search/search';
+
 export function Home() {
-    return <main>"Home"</main>;
+    return <Search></Search>;
 }
